@@ -1,0 +1,60 @@
+form {
+    width: 20vw;
+    margin: 0 auto;
+}
+
+.true, .false {
+    display: none;
+}
+
+.true {
+    color: green;
+}
+
+.false {
+    color: red;
+}
+
+hr {
+    width: 20vw;
+    margin: 0 auto;
+    margin-top: 1.5vh;
+}
+
+.btn-warning {
+    margin-left: 40%;
+    margin-top: 1.5vh !important;
+}
+
+h2 {
+    margin-left: 40%;
+    margin-top: 1vh;
+}
+
+.btn-success {
+    margin-top: 1.6vh !important;
+}
+
+label {
+    margin-top: 2vh;
+}
+
+.create {
+    margin-top: 1.5vh;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+}
+
+.btn-primary {
+    margin-left: 1rem; 
+}
+
+p {
+    margin-left: 0.5rem; 
+}
+
+.cr {
+    text-decoration: none;
+    color: white;
+}

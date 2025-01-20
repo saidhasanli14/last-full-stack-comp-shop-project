@@ -1,0 +1,86 @@
+.btn-warning {
+    margin-left: 15px !important;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600 !important;
+    margin-left: 15px;
+}
+
+.carousel-indicators {
+    top: 85%;
+}
+
+.carousel {
+    width: 30vw !important;
+    /* max-width: 15vw;  */
+    height: 30vw;
+    margin: 0 auto;
+    position: relative !important;
+}
+
+.carousel-inner {
+    width: 100% !important;
+    height: fit-content;
+}
+
+.carousel-item {
+    width: 100% !important;
+
+}
+
+.carousel-caption {
+    position: absolute !important;
+    top: 80%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute !important;
+    height: 50vh !important;
+    background-color: rgb(230, 173, 214) !important;
+    top: 50% !important;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+    left: -40vh !important;
+}
+
+.carousel-control-next {
+    right: -40vh !important;
+}
+
+img {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+
+}
+
+@media (max-width: 778px) {
+    .carousel {
+        max-width: 90vw;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        height: 30vh !important;
+    }
+}
+
+.a1 {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.a2 {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.btn-lg {
+    float: right !important;
+    margin-right: 1vw;
+}

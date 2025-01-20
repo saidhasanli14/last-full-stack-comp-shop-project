@@ -1,0 +1,82 @@
+form {
+    width: 20vw;
+    margin: 0 auto;
+}
+
+.true,
+.false {
+    display: none;
+}
+
+.true {
+    color: green;
+}
+
+.false {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    width: 20vw;
+    margin: 0 auto;
+    margin-top: 1vh;
+}
+
+.btn-primary {
+    margin-left: 50vw;
+}
+
+.right {
+    margin-top: 1vh;
+    margin-left: 40vw;
+}
+
+.true,
+.false {
+    font-size: small;
+}
+
+.btn-warning {
+    margin-top: 2vh !important;
+    margin-bottom: 1vh !important;
+}
+
+h2 {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.mb-3 {
+    position: relative;
+}
+
+i {
+    position: absolute;
+    top: 45px;
+    right: 5px;
+}
+
+.fa-circle-exclamation {
+    color: red;
+}
+
+.fa-check {
+    color: green;
+    /* display: none !important; */
+}
+
+.message {
+    background-color: rgba(0, 128, 0, 0.267);
+    color: green;
+    height: 4vh;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-top: 8px;
+    border-radius: 5px;
+    margin-top: 1vh;
+    display: none;
+}
